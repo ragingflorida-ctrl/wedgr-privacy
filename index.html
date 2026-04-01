@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEDGR – Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      color: #1a1a1a;
+      line-height: 1.7;
+      background: #fff;
+    }
+    h1 { font-size: 2rem; margin-bottom: 4px; }
+    h2 { font-size: 1.15rem; margin-top: 36px; margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+    p, li { font-size: 0.97rem; }
+    ul { padding-left: 20px; }
+    a { color: #0066cc; }
+    .meta { color: #777; font-size: 0.88rem; margin-bottom: 40px; }
+    .highlight { background: #f5f5f5; border-left: 4px solid #333; padding: 14px 18px; border-radius: 4px; margin: 24px 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">App: WEDGR &nbsp;|&nbsp; Package: com.wedgr.app &nbsp;|&nbsp; Last updated: April 1, 2025</p>
+
+  <div class="highlight">
+    <strong>Short version:</strong> WEDGR does not collect, transmit, or share any personal data.
+    Everything the app stores stays on your device and is fully under your control.
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>
+    WEDGR is an Android application developed and operated as a sole proprietorship.
+    For privacy-related questions, contact us at:
+    <a href="mailto:raging.florida@gmail.com">raging.florida@gmail.com</a>
+  </p>
+
+  <h2>2. What WEDGR Does</h2>
+  <p>
+    WEDGR turns your Android device into a wireless barcode scanner wedge. It scans barcodes,
+    QR codes, and text via the device camera and transmits the results to a paired Windows or
+    macOS computer over Bluetooth HID (keyboard emulation). The app functions like a hardware
+    barcode scanner connected to a PC.
+  </p>
+
+  <h2>3. Data We Do NOT Collect</h2>
+  <ul>
+    <li>No account or identity information</li>
+    <li>No location data</li>
+    <li>No analytics or usage statistics</li>
+    <li>No crash reports sent to any server</li>
+    <li>No photos or images — camera captures are processed on-device and immediately discarded; only the extracted text or barcode value is retained</li>
+    <li>No advertising identifiers</li>
+    <li>No data is transmitted to WEDGR, Anthropic, or any third party</li>
+  </ul>
+
+  <h2>4. Data Stored Locally on Your Device</h2>
+  <p>WEDGR stores the following data exclusively on your device:</p>
+  <ul>
+    <li><strong>Scan history</strong> — barcode values, QR code content, and OCR text you capture, saved to a CSV file in the app's private storage directory</li>
+    <li><strong>Paired device names and Bluetooth MAC addresses</strong> — the names and addresses of host computers you have paired with WEDGR, stored in the app's private SharedPreferences</li>
+    <li><strong>Last-seen timestamps</strong> — the date and time each paired device was last connected</li>
+  </ul>
+  <p>
+    None of this data leaves your device. It is never uploaded, synced, or transmitted to any server.
+  </p>
+
+  <h2>5. How to Delete Your Data</h2>
+  <p>You have full control over all locally stored data:</p>
+  <ul>
+    <li><strong>Scan history:</strong> Tap Settings → Clear All Data inside the app, or uninstall the app</li>
+    <li><strong>Paired devices:</strong> Tap Settings → Manage Devices → Forget for each device, or uninstall the app</li>
+    <li><strong>All data:</strong> Uninstalling WEDGR permanently removes all locally stored data</li>
+  </ul>
+
+  <h2>6. Permissions Used</h2>
+  <ul>
+    <li><strong>Camera</strong> — required to scan barcodes, QR codes, and capture text. Images are processed on-device and never stored or transmitted.</li>
+    <li><strong>Bluetooth (BLUETOOTH_CONNECT, BLUETOOTH_ADVERTISE, BLUETOOTH_SCAN)</strong> — required to discover, pair with, and transmit keystrokes to a host computer via Bluetooth HID. Bluetooth scanning is never used to derive location.</li>
+    <li><strong>Foreground Service / Connected Device</strong> — required to maintain an active Bluetooth HID connection while the app is in use.</li>
+    <li><strong>Vibration</strong> — used for optional haptic feedback on successful scans.</li>
+    <li><strong>Internet</strong> — declared as a standard React Native dependency; WEDGR makes no network requests.</li>
+  </ul>
+
+  <h2>7. Third-Party SDKs</h2>
+  <p>
+    WEDGR uses the following on-device libraries. None of these transmit data off your device:
+  </p>
+  <ul>
+    <li><strong>Google ML Kit Text Recognition</strong> — on-device OCR processing only</li>
+    <li><strong>Expo / React Native</strong> — app framework; no telemetry in release builds</li>
+  </ul>
+
+  <h2>8. Children's Privacy</h2>
+  <p>
+    WEDGR is a productivity tool intended for use in business and professional environments.
+    It is not directed at children under 13. We do not knowingly collect any information from children.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    If we make material changes to this privacy policy, we will update the "Last updated" date at the top
+    of this page. Continued use of the app after changes constitutes acceptance of the updated policy.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    For any privacy-related questions or data deletion requests, contact us at:<br />
+    <a href="mailto:raging.florida@gmail.com">raging.florida@gmail.com</a>
+  </p>
+
+</body>
+</html>
